@@ -1,0 +1,668 @@
+*{
+   font-family:-apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+}
+
+body{
+  margin:0px;
+}
+.headmain{
+   top:0px;
+   position:sticky;
+   z-index:1;
+   background-color:white;
+}
+
+.headerbutton{
+   padding-left:11px;
+   padding-right:11px;
+   padding-top:6px;
+   padding-bottom:6px;
+   text-decoration:none;
+   color:#666666;
+}
+
+.headerbutton:hover{
+   background-color:#D3D3D3;
+   padding-left:11px;
+   padding-right:11px;
+   padding-top:6px;
+   padding-bottom:6px;
+   border-radius:20px;
+}
+.navline{
+  width:100%;
+  height:3px;
+  background-color:#ff6600;
+}
+.nav{
+   display:flex;
+   justify-content:space-evenly;
+   align-items:center;
+   margin-left:40px;
+   padding:8px 0px 8px 0px;  
+}
+.hrclass{
+   border:2px solid #d9d9d9;
+}
+
+.stackoimg{
+     height: 30px;
+     width:30px;
+}
+.learnbut{
+   background-color:orange;
+   color:white;
+   width:110px;
+   border:1px solid orange;
+   border-radius:10px;
+   padding-left:11px;
+   padding-right:11px;
+   padding-top:6px;
+   padding-bottom:6px;
+}
+.navcomp{
+     font-size:14px;
+}
+.navmaincomp{
+     font-size:20px;
+}
+
+.overflowbold{
+     font-weight:700;
+}
+.inputbar{
+     width:48vw;
+     height:28px;
+     border-radius:5px;
+     border: solid #D3D3D3 1px;
+     background:url("D:/Trainig/lens.png") center left no-repeat;
+     padding-left:20px;
+}
+.inputbar:focus
+{
+  outline:1px solid rgb(27,117,208);
+}
+
+.navsignbut{
+      border-color:blue;
+}
+.aboutdiv{
+   margin-left:5vw;
+}
+
+.plussign{
+    margin-left:50px; 
+    font-weight:500;
+    font-size:14px;
+}
+.select{
+    margin-left:40vw;
+    height:36px;
+    border-radius:5px;
+    border:1px solid #D3D3D3;
+    width:75px; 
+}
+.loginbut{
+    width:60px;   
+    height:30px;
+    border-color:rgb(27,117,208);
+    background-color:white;
+    border-radius:5px;
+    border:1px solid rgb(27,117,208);
+    color:rgb(27,117,208);
+}
+.loginbut:hover{
+   background-color:#cceeff;
+}
+.signupbut{
+    background-color :rgb(27,117,208);
+    color:white;
+    border-color:rgb(27,117,208);
+    width:65px;   
+    height:30px; 
+    border-radius:5px;    
+    border:1px solid rgb(27,117,208);
+}
+
+.screenhr{
+   border-bottom:1px solid #d9d9d9;
+}
+.splitscreen{
+   display:flex;
+}
+.screen1{
+   overflow-y:scroll;
+   overflow-x:hidden;
+   width:300px;
+   height:95vh;
+   padding-top:10px;
+   position:sticky;
+   margin-left:3vw;
+   top:55px;
+}
+
+.screen2{
+   margin-top:15px;
+}
+
+.sidebarcomp{
+     text-decoration:none;
+     color:#595959;
+     font-size:13px;
+     font-weight:400;
+}
+.screendivline{
+   border-right:1px solid #d9d9d9;
+   margin-top:0px;
+   margin-left:3px;
+}
+.li1{
+  margin-bottom:8px;
+}
+.liuser{
+  margin-bottom:8px;
+  background-color:#f2f2f2;
+  padding:3px 0px 3px 3px;
+}
+.screen1img{
+ position:relative;
+ top:3px;
+}
+
+.li2{
+  font-size:10px;
+  color:black;
+  font-weight:500;
+}
+.pweight{
+  font-weight:600;
+}
+.communitp{
+  font-size:12px;
+  color:grey;
+}
+.colectivesp{
+  color:black;
+  font-size:12px;
+}
+.pstyle13{
+  color:black;
+}
+
+.voncdiv{
+     display:flex;
+  }
+.voncimg{
+   height:130px; 
+   margin-left:1vw;
+   border-radius:10px;
+}
+
+.selectdisplay{
+  display:none;
+}
+
+.voncname{
+  margin-top:15px;
+  font-size:32px;
+  margin-left:20px;
+}
+.memberp{
+  font-size:14px;
+  color:grey;
+}
+.timelinediv{
+  display:flex;
+}
+.lastseen{
+  font-size:14px;
+  color:grey;
+  margin-left:10px; 
+}
+.profilediv{
+     margin-left:2vw;
+     margin-top:20px;
+}
+.profilebut1{
+     border-radius:20px;
+     padding:6px 11px 6px 11px;
+     background-color:#ff6600;
+     color:white;
+     border: 1px solid orange;
+}
+.profilebut2{
+     border-radius:10px;
+     padding:6px 11px 6px 11px;
+     border: transparent;
+     background-color:white;
+}
+.profilebut2:hover{
+     border-radius:20px;
+     padding:6px 11px 6px 11px;
+     background-color:#D3D3D3;
+}
+
+.statsflexdiv{
+    display:flex;
+    font-size:22px;
+}
+.h3about{
+    margin-left:21vw;
+}
+.statsdiv{
+     display:flex;
+     margin-left:1vw;
+}
+.statsbox{
+    border: 1px solid #D3D3D3;
+    padding:12px;
+    border-radius:10px;
+    height:80%;
+    width:25%;
+}
+.aboutalink{
+   color:#008ae6;
+}
+.distatflex{
+   display:flex;
+
+}
+.disflex{
+     display:flex;
+     margin:0px;
+}
+.dispflex{     
+     display:flex;
+     justify-content:space-between;
+     margin-left:20vw;
+}
+.displaflex{
+    display:flex;
+    margin-left:1vw;
+    align-items:center;
+}
+.widthstyle{
+    margin:0px 0px 0px 1vw;
+    
+}
+.numstyle{
+    color:grey;
+    font-size:12px;
+}
+.viewall{
+   font-size:14px;
+
+}
+.collectivesdiv1{
+    margin-left:1vw;
+}
+.collectivesa{
+   margin-left:45vw;
+   text-decoration:none;
+   font-size:14px;
+   color:black;
+}
+
+.collectivesatag{
+   margin-left:50vw;
+   text-decoration:none;
+   font-size:14px;
+   color:black;
+   margin-top:25px;
+}
+
+.collectivesatag1{
+   margin-left:45vw;
+   text-decoration:none;
+   font-size:14px;
+   color:black;
+   margin-top:25px;
+}
+
+.collectivesatag2{
+   margin-left:25vw;
+   text-decoration:none;
+   font-size:14px;
+   color:black;
+   margin-top:25px;
+}
+
+
+.collectivesatag3{
+   margin-left:38vw;
+   text-decoration:none;
+   font-size:14px;
+   color:black;
+   margin-top:25px;
+}
+
+
+.allpostsatag{
+   margin-left:36vw;
+   text-decoration:none;
+   font-size:14px;
+   color:black;
+   margin-top:25px;
+}
+
+
+
+.collectivesdiv2{
+   font-size:24px;
+}
+.collectivesstyle{
+   margin-left:1vw;
+   font-size:24px;
+   margin-bottom:0px;
+}
+
+.font{
+   font-size:24px;
+}
+.num{
+    font-size:20px;
+    margin-top:20px;
+}
+
+.nummargin{
+    font-size:20px;
+    margin-top:20px;
+    margin-left:5vw;
+}
+
+.num1{
+    font-size:20px;
+    margin-top:20px;
+
+}
+
+.nummargin1{
+    font-size:20px;
+    margin-top:20px;
+    margin-left:7vw;
+}
+.numargin{
+    font-size:20px;
+    margin-top:20px;
+    margin-left:7vw;
+}
+.aboutlist{
+    font-size:16px;
+}
+.limarg{
+   margin-left:20px;
+}
+.badgetable{
+   margin-top:20px;
+   border:1px solid #D3D3D3;
+   height:200px;
+   width:280px;
+   border-radius:10px;
+   padding-right:30px;
+   padding-left:10px;
+   margin-left:1vw;
+}
+
+.disbadgeflex{
+   display:flex;
+   margin-bottom:15px;
+}
+
+.communitytable{
+   border:1px solid #D3D3D3;
+   border-radius:10px;
+   padding:10px;
+   height:200px;
+   padding-right:5px;
+   padding-left:5px;
+   margin-left:1vw;
+   margin-top:20px;
+   width:90%;
+}
+.badgediv{
+   display:flex;
+   justify-content:space-between;
+   font-size:12px;
+   margin-top:20px;
+   padding-left:10px;
+   color:grey;
+
+}
+
+.bulletcomp{
+  color:orange;
+}
+.bulletsrcomp{
+  color:#D3D3D3;
+}
+
+.bulletbrcomp{
+  color:#CD7F32;
+}
+.posttdiv{
+   display:flex;
+   justify-content:space-between;
+   font-size:14px;
+   margin-top:20px;
+   padding-bottom:30px;
+   padding-left:10px;
+   padding-right:10px;
+   border-bottom:1px solid #D3D3D3;
+}
+
+.commundiv{
+   display:flex;
+   justify-content:space-between;
+   font-size:14px;
+  
+}
+.communityno{
+
+}
+.badgedivlast{
+   display:flex;
+   justify-content:space-between;
+   font-size:14px;
+   margin-top:20px;
+   margin-bottom:30px;
+   padding-left:10px;
+   padding-right:10px;
+
+}
+.badgeimg{
+   width:50px;
+}
+
+.metadiv{
+   font-size:14px;
+   margin-top:10px;
+   padding-bottom:30px;
+   border-bottom:1px solid #D3D3D3;
+   align-items:center;
+   
+}
+
+.metadivlast{
+   font-size:14px;
+   margin-top:10px;
+   margin-bottom:20px;
+   padding-bottom:30px;
+}
+
+
+.soliddiv{
+   border:1 px solid #D3D3D3;
+   font-size:13px;
+   color:grey;
+   
+
+}
+.scorep{
+   margin-left:38vw;
+}
+.scorep1{
+   margin-left:35vw;
+}
+.scorep2{
+   margin-left:40vw;
+}
+.scorespan{
+   font-size:12px;
+}
+.postp{
+   margin-left:10px;
+}
+.tagsoliddiv{
+   font-size:12px;
+   font-weight:600;
+   margin-left:10px;
+}
+.golddivstyle{
+   width:70px;
+   font-size:26px;
+   font-weight:700;
+}
+
+.collectivedivstyle{
+   width:150px;
+   font-size:16px;
+   margin-left:10px;
+}
+
+.collectspan{
+   font-size:12px;
+   margin-top:10px;
+}
+.goldspan{
+   font-size:11px;
+   font-weight:400;
+}
+.silverspan{
+   font-size:10px;
+}
+.bronzespan{
+   font-size:9px;
+}
+
+.collectivetable{
+    border:1px solid #D3D3D3;
+    border-radius:10px;
+    padding:10px;
+    height:300px;
+    padding-right:30px;
+    padding-left:10px;
+    margin-left:1vw;
+    width:70%;
+}
+
+.posttable {
+   width:98%;
+   border-radius:10px;
+   margin-left:1vw;
+   border: 1px solid #D3D3D3;
+}
+
+.tagtablediv{
+   display:flex;
+   border-bottom: 1px solid #D3D3D3;
+}
+
+.toppostindiv{
+   background-color:green;
+   padding:4px;
+   width:30px;
+   border-radius:5px;
+   color:white;
+}
+
+.aimgclass{
+   align-items:center;
+}
+.metapostindiv{
+   padding:4px;
+   width:30px;
+   border-radius:5px;
+   border:1px solid #D3D3D3;
+   color:black;
+}
+.toppostsatag{
+   text-decoration:none;
+   align-items:center;
+}
+
+.displayflexfont{
+  display:flex;
+  justify-content:space-evenly;
+  color:black;
+  align-items:center;
+  margin-left:20vw;
+  margin-bottom:5px;
+}
+.border{
+  border: 1px solid #D3D3D3;
+  border-radius:5px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:6px;
+  font-size:13px;
+}
+.boldgrey{
+ font-weight:500;
+ color:black;
+ border: transparent;
+ border-radius:3px;
+ background-color:#D3D3D3;
+ align-items:center;
+ padding-top:2px;
+ padding-bottom:2px;
+ padding-left:4px;
+ padding-right:4px;
+}
+
+.buttoncollectionclass{
+  border:1px transparent;
+  font-size:12px;
+  background-color:white;
+}
+
+.buttoncollectionclassm{
+  border:1px transparent;
+  font-size:12px;
+  background-color:#D3D3D3;
+}
+
+.stackoverstyle{
+   margin-top:10px;
+   border-radius:10px;
+}
+.stackoverblackimg{
+   position:relative;
+   width:20px;
+   height:20px;
+   top:3px;
+   margin-right:10px;
+}
+.foot{
+   background-color:black;
+   color:#babab6;
+   font-size:13px;
+   display:flex;
+   justify-content:space-evenly;
+   margin-top:20px;
+}
+.socmedia{
+   display:flex;
+   margin-top:20px;
+   font-size:11px;
+   justify-content:space-evenly;
+
+}
+.hoverclass:hover{
+  color:white;
+}
+.laststyle{
+   margin-top:80%;
+   width:20vw;
+}
+
